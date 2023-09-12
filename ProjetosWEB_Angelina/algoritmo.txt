@@ -1,0 +1,13 @@
+git config--global user.name"jimiguitarist"
+
+Enernoc Brasil Gerenciamento de Energia Ltda 
+            Endereço: Romeu do Nascimento, 247
+            Jardim Portal da Colina, Sorocaba - SP
+            Cargo: Assistente de Processos
+        
+            Enel X Brasil
+            Endereço: Av. Prof. Arthur Fonseca, 808
+            Jardim Faculdade, Sorocaba - SP
+            Cargo: Analista de Processos Pleno
+
+sb9zsyy

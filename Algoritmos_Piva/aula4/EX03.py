@@ -1,0 +1,10 @@
+Pessoa = input("Digite sua idade: 39")
+A = ("Idade anos = idade")
+B = ("Idade meses = idade * 12")
+C = ("Idade dias = idade * 365")
+D = ("Idade semanas = idade * 53")
+
+print(A)
+print(B)
+print(C)
+print(D)
