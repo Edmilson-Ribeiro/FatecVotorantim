@@ -1,0 +1,11 @@
+h2{
+    color: rgb(153, 11, 148);
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+section{
+    border: 1px solid blue;
+}
