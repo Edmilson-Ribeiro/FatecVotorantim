@@ -1,0 +1,121 @@
+.titulo{
+    display: flex;
+    justify-content: space-around;
+    border: 5px;
+    border-radius: 10px;
+    background-color: rgb(7, 7, 7);
+    color: white; 
+    margin-bottom: 10px;  
+}
+
+.center{
+    display: flex;
+    justify-content: space-around;
+}
+
+.icones{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 40px 10px 50px 10px;
+}
+
+.icone{
+    width: 50px;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    background: red;
+    border-radius: 100px;
+    margin: 10px 10px 10px 10px;
+    transition: background-color 2s linear;
+    transition: all 2s linear ;
+  }
+  
+  .box:hover {
+    background-color: rgb(0, 9, 128);
+    width: 300px;
+    height: 300px;
+    border-radius: 300px;
+    cursor: pointer;
+  }
+
+  .box2{
+    width: 150px;
+    height: 150px;
+    background: red;
+    border-radius: 100px;
+    margin: 10px 10px 10px 10px;
+    transition: 1s;
+  }
+  .box2:hover {
+    background-color: rgb(0, 9, 128);
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    cursor: pointer;
+  }
+
+
+  .tanslate{
+    transition: 2s;
+    transition: background-color 2s linear;
+  }
+  section:hover .translate{
+    translate: 0 200px ;
+    
+  }
+  .box3{
+    width: 150px;
+    height: 150px;
+    background: red;;
+    margin: 10px 10px 10px 10px;
+    transition: 2s;
+}
+
+.box3:hover{
+    background-color: rgb(0, 9, 128);
+    transform: rotate(60deg);
+    -moz-transform: rotate(60deg);
+    -webkit-transform: rotate(60deg);
+}
+
+.circle{
+    display: flex;
+    justify-content: space-around;
+    width: 150px;
+    height: 150px;
+    background: red;
+    border-radius: 150px;
+    margin: 10px 10px 10px 10px;
+    animation: go-back 1s infinite alternate;
+    
+
+    
+}
+@keyframes go-back {
+    from {
+      transform: translateX(300px);
+    }
+    to {
+      transform: translateX(-300px);
+         
+    }
+  }
+  @keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+.img1{
+  width: 150px;
+  height: 150px;
+  border: 5px solid black;
+}
+.img2{
+  width: 160px;
+  height: 160px;
+  border-radius: 160px;
+}
