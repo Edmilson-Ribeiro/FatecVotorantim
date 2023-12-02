@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(130, 161, 199)
+}
+img {
+    width: 100px;
+    border-radius: 40px;
+    float: left;
+}
+h3{
+    display: inline-block;
+    display: block;
+}
+h5{
+    display: block;
+}
+label{
+    display: inline-block;
+}
